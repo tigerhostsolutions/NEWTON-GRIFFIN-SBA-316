@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b5dead;
+    color: #2e0014;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #442220;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#puzzle-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    gap: 5px;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #809848;
+    color: white;
+    cursor: pointer;
+}
+
+button:hoover {
+    background-color: #b0ca87;
+}

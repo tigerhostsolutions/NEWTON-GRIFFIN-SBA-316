@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Document Object Model</title>
+    <title>Personalized Puzzle Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>The Document Object Model</h1>
-
-    
-    <script src="index.js"></script>
+    <header>
+        <h1>Personalized Puzzle Generator</h1>
+    </header>
+    <main>
+        <section id="puzzle-selection">
+            <h2>Select Your Puzzle</h2>
+            <button id="sudoku-btn">Sudoku</button>
+            <button id="logic-btn">Logic Puzzle</button>
+        </section>
+        <section id="puzzle-display">
+            <h2>Here's Your Puzzle</h2>
+            <div id="puzzle-grid"></div>
+            <button id="check-solution-btn">Check Solution</button>
+            <button id="hint-btn">Get a Hint</button>
+        </section>
+        <section id="timer">
+            <h3>Timer: <span id="time">0:00</span></h3>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TeMecha</p>
+    </footer>
+    <script src="app.js"></script>
 </body>
 </html>
